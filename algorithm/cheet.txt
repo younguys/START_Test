@@ -1,0 +1,6 @@
+team: cheet
+manager: laura
+members:
+- Ryan
+-Anna
+-Justin
