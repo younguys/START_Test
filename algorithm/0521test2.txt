@@ -1,5 +1,5 @@
 team: lions
-manager: mary
+manager: Donald
 members:
 - thomas
 - karen
