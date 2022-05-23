@@ -1,6 +1,0 @@
-team: lions
-manager: Donald
-members:
-- thomas
-- karen
--margrat
