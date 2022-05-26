@@ -113,28 +113,28 @@
 #for i in range(10):
 #    a.append(int(input())%42)
 #print(len(set(a)))
-#14문제
-a=list(input())
-b=[]
-temp=[]
-for i in range(len(a)):
-    b.append(ord(a[i]))
-b.sort()
-b=set(b)
-for i in range(ord('a'),ord('z')+1):
-    flag=False
-    for j in b:
-        if j==i:
-            flag=True
-            temp.append(a.index(chr(i)))
-            break
-        else:
-            flag=False
-            continue
-    if flag==False:
-        temp.append(-1)
-print(" ".join(str(temp)))
-
+#14문제 for문 한줄로 적을 수있음 join문으로 리스트내용출력
+#a=list(input())
+#b=[]
+#temp=[]
+#for i in range(len(a)):
+#    b.append(ord(a[i]))
+#b.sort()
+#b=set(b)
+#for i in range(ord('a'),ord('z')+1):
+#    flag=False
+#    for j in b:
+#        if j==i:
+#            flag=True
+#            temp.append(a.index(chr(i)))
+#            break
+#        else:
+#            flag=False
+#            continue
+#    if flag==False:
+#        temp.append(-1)
+#print(" ".join(str(s)for s in temp))
+#15문제
 
     
         
