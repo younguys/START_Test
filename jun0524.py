@@ -78,3 +78,19 @@
 #    print('descending')
 #else:
 #    print('mixed')
+#12번문제
+a=int(input())
+tempstr=[]
+for i in range(a):
+    tempstr.append(input())
+for i in range(a):
+    count=0
+    totalsum=0
+    for j in range(len(tempstr[i])):
+        if tempstr[i][j]=='O':
+            count=count+1
+            totalsum=totalsum+count
+        else:
+            count=0
+            continue
+    print(totalsum)        
