@@ -10,3 +10,45 @@
 #a=list(map(int,input().split()))
 #print(min(a),max(a))
 #4번문제
+#str=list(input().split())
+#print(len(str))
+#5번문제
+#a=[]
+#for i in range(9):
+#    a.append(int(input()))
+#print(max(a))
+#print(a.index(max(a))+1)
+#6번문제
+#from itertools import count
+#a=[]
+#for i in range(3):
+#    a.append(int(input()))
+#x=str(a[0]*a[1]*a[2])
+#list=map(int,str(x))
+#for i in range(10):
+#    print(x.count(str(i)))
+#7번문제 문자열도 list처럼 반복문이자로 사용가능
+#t=int(input())
+#for i in range(t):
+# a,b=input().split()
+# for j in b:
+#  print(int(a)*j, end='')
+# print()
+#8문제 문자열자체를 비교 보다는 아스키코로 바로 비교하는게 좋을듯
+#a=input().upper()
+#temp=[]
+#str=[]
+#for i in range(len(a)):
+#   flag=False
+#    for j in range(len(temp)):
+#        if a[i]==str[j]:
+#            flag=True
+#            break
+#    if flag==False:
+#        str.append(a[i])
+#        temp.append(a.count(a[i]))
+#if temp.count(max(temp))==1:
+#    print(str[temp.index(max(temp))])
+#else:
+#    print('?')
+
