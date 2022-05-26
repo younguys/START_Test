@@ -51,4 +51,30 @@
 #    print(str[temp.index(max(temp))])
 #else:
 #    print('?')
-
+#9번문제
+#a=int(input())
+#b=input()
+#total=0
+#for i in range(a):
+#    total=total+int(b[i])
+#print(total)
+#10번문제 리스트 관련해서 찾아 볼필요가 있을듯
+#a,b=input().split()
+#print(max([int(a[::-1]),int(b[::-1])]))
+#for i in range (2,-1,-1):
+#    if int(a[0][i]) >int(a[1][i]):
+#        print(a[0][2]+a[0][1]+a[0][0])
+#        break
+#    elif int(a[0][i]) <int(a[1][i]):
+#        print(a[1][2]+a[1][1]+a[1][0])
+#        break  
+#    else:
+#        continue
+#문제11번
+#tempstr=input()
+#if'12345678'==tempstr[::2]:
+#    print('ascending')
+#elif"87654321"==tempstr[::2]:
+#    print('descending')
+#else:
+#    print('mixed')
