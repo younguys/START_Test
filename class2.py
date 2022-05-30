@@ -25,6 +25,15 @@
 #     else:
 #         print(str(z%x)+'0'+str(int(z/x+1))if len(str(int(z/x+1)))==1 else str(z%x)+str(int(z/x+1)))
 #문제4번
+# a=input()
+# for i in range(1,int(a)+1):
+#     total=sum(map(int,str(i)))
+#     total=total+i
+#     if total ==int(a):
+#         print(i)
+#         break
+# else:
+#     print(0)
 #문제5번 문제를 잘 읽자
 # a=int(input())
 # count=1
