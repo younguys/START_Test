@@ -135,6 +135,9 @@
 #        temp.append(-1)
 #print(" ".join(str(s)for s in temp))
 #15문제
-
-    
-        
+#a=int(input())
+#b=list(map(int,input().split()))
+#total=0
+#for i in b:
+#    total=total+i/max(b)*100
+#print(total/a)

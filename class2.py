@@ -1,11 +1,4 @@
-#마지막문제
-#a=int(input())
-#b=list(map(int,input().split()))
-#total=0
-#for i in b:
-#    total=total+i/max(b)*100
-#print(total/a)
-#class2 1번문제
+#1번문제
 # x,y,w,h=map(int,input().split())
 # data=[x,y,w-x,h-y]
 # print(min(data))
@@ -25,3 +18,20 @@
 #     else:
 #         print(str(z%x)+'0'+str(int(z/x+1))if len(str(int(z/x+1)))==1 else str(z%x)+str(int(z/x+1)))
 #문제4번
+# a=input()
+# for i in range(1,int(a)+1):
+#     total=sum(map(int,str(i)))
+#     total=total+i
+#     if total ==int(a):
+#         print(i)
+#         break
+# else:
+#     print(0)
+tempstr=input()
+print(tempstr[::2])
+if'12345678'==tempstr[::2]:
+    print('ascending')
+elif"87654321"==tempstr[::2]:
+    print('descending')
+else:
+    print('mixed')
