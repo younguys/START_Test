@@ -78,3 +78,20 @@
 #     else:
 #         print('yes'if s[::]==s[::-1] else 'no')
 #문제9번
+c=int(input())
+for i in range(c):
+    a=int(input())
+    b=int(input())
+    temp=[]
+    temp1=[]
+    for i in range(b):
+        temp.append(i+1)
+        temp1.append(i+1)
+    for k in range(a):
+        for i in range(1,b+1):
+            total=0
+            for j in range(i):
+                total=total+temp[j]
+            temp1[i-1]=total
+        print(temp,temp1)
+        temp=temp1
